@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WxApi", "WxAPI\WxApi.csproj", "{603AF01C-3DC3-4A84-802D-85264B2ED1AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WxApi.Dtos", "WxApi.Dtos\WxApi.Dtos.csproj", "{DE895BB4-5F1F-465B-9FB0-2E8A58CEDBD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WxApi.Services", "WxApi.Services\WxApi.Services.csproj", "{3246B0D6-D27D-48A3-8455-5094A354696B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WxApi.Configuration", "WxApi.Configuration\WxApi.Configuration.csproj", "{72B084DA-2A20-4545-A9E8-E0DE4DC1D4F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3DCC044F-D637-4C16-B7B7-C1E155942382}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WxApi.Controllers.Tests", "WxApi.Controllers.Tests\WxApi.Controllers.Tests.csproj", "{8646FD98-E37C-4C76-835A-CFB07382F38C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WxApi.Services.Tests", "WxApi.Services.Tests\WxApi.Services.Tests.csproj", "{D685F849-9490-4104-98B9-5127B5BCDF59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{603AF01C-3DC3-4A84-802D-85264B2ED1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603AF01C-3DC3-4A84-802D-85264B2ED1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603AF01C-3DC3-4A84-802D-85264B2ED1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603AF01C-3DC3-4A84-802D-85264B2ED1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE895BB4-5F1F-465B-9FB0-2E8A58CEDBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE895BB4-5F1F-465B-9FB0-2E8A58CEDBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE895BB4-5F1F-465B-9FB0-2E8A58CEDBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE895BB4-5F1F-465B-9FB0-2E8A58CEDBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3246B0D6-D27D-48A3-8455-5094A354696B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3246B0D6-D27D-48A3-8455-5094A354696B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3246B0D6-D27D-48A3-8455-5094A354696B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3246B0D6-D27D-48A3-8455-5094A354696B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B084DA-2A20-4545-A9E8-E0DE4DC1D4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B084DA-2A20-4545-A9E8-E0DE4DC1D4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B084DA-2A20-4545-A9E8-E0DE4DC1D4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B084DA-2A20-4545-A9E8-E0DE4DC1D4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8646FD98-E37C-4C76-835A-CFB07382F38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8646FD98-E37C-4C76-835A-CFB07382F38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8646FD98-E37C-4C76-835A-CFB07382F38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8646FD98-E37C-4C76-835A-CFB07382F38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D685F849-9490-4104-98B9-5127B5BCDF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D685F849-9490-4104-98B9-5127B5BCDF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D685F849-9490-4104-98B9-5127B5BCDF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D685F849-9490-4104-98B9-5127B5BCDF59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8646FD98-E37C-4C76-835A-CFB07382F38C} = {3DCC044F-D637-4C16-B7B7-C1E155942382}
+		{D685F849-9490-4104-98B9-5127B5BCDF59} = {3DCC044F-D637-4C16-B7B7-C1E155942382}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35EFADE0-D6BE-4EB6-BE6A-2AF7F37FF901}
+	EndGlobalSection
+EndGlobal
